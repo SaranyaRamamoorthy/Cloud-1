@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.status(200).send("Hello, world! This is Prithviraj K 19MIC0093. This text is being displayed on request from '/'").end();
+    res.status(200).send("This is Saranya R 19MIC0121.").end();
 });
 app.get('/test', (req, res) => {
     res.status(200).send("This text is being displayed on request from '/test'").end();
